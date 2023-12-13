@@ -20,19 +20,19 @@ function calculadoraNivel(){
 
 function nivelAtual() {
     if(saldoVitorias <= 10){
-        console.log("Ferro")
+        nivelHeroi = "Ferro"
     } else if(saldoVitorias > 10 && saldoVitorias <= 20) {
-        console.log("Bronze")
+        nivelHeroi = "Bronze"
     } else if(saldoVitorias > 20 && saldoVitorias <= 50) {
-        console.log("Prata")
+        nivelHeroi = "Prata"
     } else if(saldoVitorias > 50 && saldoVitorias <= 80) {
-        console.log("Ouro")
+        nivelHeroi = "Ouro"
     } else if(saldoVitorias > 80 && saldoVitorias <= 90) {
-        console.log("Diamante")
+        nivelHeroi = "Diamante"
     } else if(saldoVitorias > 90 && saldoVitorias <= 100) {
-        console.log("Lendário")
+        nivelHeroi = "Lendário"
     } else {
-        console.log("God Of War")        
+        nivelHeroi = "God Of War"        
     }
     return nivelHeroi
 };
